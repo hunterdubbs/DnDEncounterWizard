@@ -1,0 +1,153 @@
+.root{
+	-fx-background-color: #333333;
+	-fx-wrap-text: true;
+}
+.button{
+	-fx-text-fill: #FFFFFF;
+	-fx-background-color: #222222;
+	-fx-pref-width: 200px;
+	-fx-pref-height: 50px;
+	-fx-alignment: center;
+	-fx-font-size: 16pt;
+}
+.button:hover{
+	-fx-text-fill: #333333;
+	-fx-background-color: #AAAAAA;
+}
+.smButton{
+	-fx-pref-width: 100px;
+}
+.menuButton{
+	-fx-text-fill: #FFFFFF;
+	-fx-background-color: #222222;
+	-fx-pref-width: 350px;
+	-fx-pref-height: 100px;
+	-fx-alignment: center;
+	-fx-font-size: 24pt;
+}
+.monsterButton{
+	-fx-text-fill: #FFFFFF;
+	-fx-background-color: #222222;
+	-fx-pref-width: 400px;
+	-fx-pref-height: 50px;
+	-fx-alignment: center;
+	-fx-font-size: 16pt;
+}
+.encounterButton{
+	-fx-text-fill: #FFFFFF;
+	-fx-background-color: #222222;
+	-fx-pref-width: 380px;
+	-fx-pref-height: 50px;
+	-fx-alignment: center;
+	-fx-font-size: 16pt;
+}
+.vbox{
+	-fx-background-color: #222222;
+	-fx-vgap: 5px;
+}
+.hbox{
+	-fx-background-color: #222222;
+	-fx-hgap: 15px;
+}
+.label{
+	-fx-text-fill: #FFFFFF;
+	-fx-min-width: 20px;
+	-fx-min-height: 15px;
+	-fx-text-alignment: center;
+}
+.gridpane{
+	-fx-min-width: 20px;
+	-fx-min-height: 15px;
+	-fx-text-alignment: center;
+}
+
+.welcomeMsg{
+	-fx-text-alignment: center;
+	-fx-font-size: 14pt;
+	-fx-pref-width: 800px;
+	-fx-wrap-text: true; 
+}
+.listArea{
+	-fx-background-color: #222222;
+	-fx-pref-width: 380px;
+	-fx-pref-height: 550px;
+	-fx-border-radius: 20px;
+}
+.encounterList{
+	-fx-background-color: #222222;
+	-fx-pref-width: 280px;
+	-fx-pref-height: 550px;
+	-fx-border-radius: 20px;
+}
+.encounterMonsterList{
+	-fx-background-color: #222222;
+	-fx-pref-width: 380px;
+	-fx-pref-height: 430px;
+	-fx-border-radius: 20px;
+}
+.playMonsterList{
+	-fx-background-color: #222222;
+	-fx-pref-width: 750px;
+	-fx-pref-height: 550px;
+	-fx-border-radius: 20px;
+	-fx-padding: 15px;
+}
+.monsterArea{
+	-fx-background-color: #333333;
+	-fx-pref-width: 500px;
+	-fx-pref-height: 70px;
+	-fx-border-radius: 10px;
+	-fx-padding: 10px;
+}
+.deadMonsterArea{
+	-fx-background-color: #111111;
+	-fx-pref-width: 500px;
+	-fx-pref-height: 70px;
+	-fx-border-radius: 10px;
+	-fx-padding: 10px;
+}
+.statArea{
+	-fx-pref-width: 30px;
+}
+.nameArea{
+	-fx-pref-width: 300px;	
+}
+.medStatArea{
+	-fx-pref-width: 60px;
+}
+.lgStatArea{
+	-fx-pref-width: 400px;
+}
+.tallStatArea{
+	-fx-pref-width: 80px;
+	-fx-font-size: 18pt;
+}
+.actionsArea{
+	-fx-pref-width: 350px;
+	-fx-pref-height: 200px;
+}
+.lgTextLong{
+	-fx-font-size: 24pt;
+	-fx-pref-width: 600px;
+}
+.lgText{
+	-fx-font-size: 24pt;
+}
+.medText{
+	-fx-font-size: 18pt;
+	-fx-pref-width: 100px;
+}
+.medTextLong{
+	-fx-font-size: 18pt;
+	-fx-pref-width: 200px;
+}
+.tooltipBold{
+	-fx-font-weight: bolder;
+	-fx-font-size: 14pt;
+}
+.tooltip{
+	-fx-font-size: 12pt;
+	-fx-text-alignment: left;
+}
+
+
