@@ -192,7 +192,6 @@ public class Main extends Application {
 		pMList = new ArrayList<>();
 		for(Monster monster : selectedEncounter.getMonsters()) {
 			monster.setInit((int)Math.ceil(Math.random() * 20));
-			System.out.println(monster.hashCode());
 		}
 		selectedEncounter.sortMonstersInit();
 		for(Monster monster : selectedEncounter.getMonsters()) {
@@ -211,7 +210,7 @@ public class Main extends Application {
 			HBox mInfo = new HBox(20, mName, mXp, mHp, mDmg, mUpdate, mInit);
 			mInfo.getStyleClass().add("monsterArea");
 			mUpdate.setOnAction(event -> {
-				int curHp = Integer.parseInt(mHp.getText().substring(0, 1));
+				int curHp = Integer.parseInt(mHp.getText().substring(0, mHp.getText().indexOf(" ")));
 				curHp -= Integer.parseInt(mDmg.getText());
 				if(curHp <= 0) {
 					curHp = 0;
@@ -291,7 +290,7 @@ public class Main extends Application {
 	}
 	
 	private static int convStat(String str) {
-		if(str.matches("\\d+")) {
+		if(str.matches("-?\\d+")) {
 			return Integer.parseInt(str);
 		}else {
 			return 0;

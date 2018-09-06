@@ -51,7 +51,26 @@ public class Encounter implements Serializable{
 		for(Monster monster : monsters) {
 			xpSubtotal += monster.getXp();
 		}
-		xp = xpSubtotal;
+		switch(monsters.size()) {
+		case 1:
+			xp = xpSubtotal;
+			break;
+		case 2:
+			xp = (int) (xpSubtotal * 1.5);
+			break;
+		case 3: case 4: case 5: case 6:
+			xp = xpSubtotal * 2;
+			break;
+		case 7: case 8: case 9: case 10:
+			xp = (int) (xpSubtotal * 2.5);
+			break;
+		case 11: case 12: case 13: case 14:
+			xp = xpSubtotal * 3;
+			break;
+		default: 
+			xp = xpSubtotal * 4;
+			break;
+		}
 	}
 	
 	public int getXp() {
