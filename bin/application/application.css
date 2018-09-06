@@ -129,9 +129,11 @@
 .lgTextLong{
 	-fx-font-size: 24pt;
 	-fx-pref-width: 600px;
+	-fx-min-height: 50px;
 }
 .lgText{
 	-fx-font-size: 24pt;
+	-fx-min-height: 50px;
 }
 .medText{
 	-fx-font-size: 18pt;
